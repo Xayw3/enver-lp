@@ -1,0 +1,36 @@
+@import '../../styles/vars.scss';
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+  margin-left: 252px;
+  margin-right: 100px;
+}
+
+.footer-links__link {
+  color: #fff;
+  opacity: .7;
+  font-size: 18px;
+  transition: .5s ease;
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+/* 1201-1600px */
+
+@media screen and (max-width: 1600px) {
+  .footer-links {
+    margin: 0;
+  }
+}
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}

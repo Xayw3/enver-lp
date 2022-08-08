@@ -1,0 +1,150 @@
+@import '../../styles/vars.scss';
+
+.offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer__content {
+  max-width: 536px;
+  z-index: 5;
+}
+
+.offer__title {
+  font-family: 'Graphik', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.offer__text {
+  font-size: 21px;
+  opacity: .7;
+  letter-spacing: -0.65px;
+  line-height: 39px;
+  margin-top: 24px;
+}
+
+.offer__btn {
+  background-color: $accent-color;
+  border-radius: 5px;
+  border: 1px solid $accent-color;
+  display: flex;
+  padding: 16px 27px;
+  color: #fff;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 50px;
+  transition: all .5s ease;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.offer__image {
+  position: relative;
+  margin-right: -100px;
+}
+
+.figure {
+  position: absolute;
+}
+
+.figure_zigzag {
+  top: 15%;
+  left: 0;
+}
+
+.figure_circles {
+  top: 5%;
+  right: 0;
+}
+
+.figure_triangles {
+  bottom: 10%;
+  left: -15%;
+}
+
+.figure_plus {
+  bottom: 10%;
+  right: 10%;
+}
+
+/* 1201-1600px */
+
+@media screen and (max-width: 1600px) {
+  .offer__image {
+    margin-right: 0;
+  }
+}
+
+/* 992-1200px */
+
+@media screen and (max-width: 1200px) {
+  .offer__title {
+    font-size: 65px;
+  }
+
+  .figure_triangles {
+    bottom: 5%;
+    left: -19%;
+  }
+}
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+  .offer {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 22px;
+  }
+
+  .figure_triangles {
+    bottom: -2%;
+    left: 1%;
+  }
+
+  .offer__image {
+    width: 100%;
+  }
+
+  .hero-image{
+    width: 100%;
+  }
+}
+
+/* 576px-767px */ 
+
+@media screen and (max-width: 767px) {
+  .offer__title {
+    font-size: 42px;
+  }
+}
+
+/* 451px-575px */
+
+@media screen and (max-width: 575px) {
+  .figure_triangles {
+    bottom: -8%;
+  }
+}
+
+/* 320-450px */
+
+@media screen and (max-width: 450px) {
+  .figure {
+    width: 20%;
+  }
+
+  .figure_circles {
+    width: 12%;
+  }
+
+  .figure_plus {
+    width: 12%;
+  }
+}

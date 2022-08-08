@@ -1,0 +1,51 @@
+@import '../../styles/vars.scss';
+
+.slider {
+  display: flex;
+  margin-top: 70px;
+}
+
+.slide-img {
+  padding: 24px;
+  background-color: #1E1E20;
+  border-radius: 14px;
+
+  &:first-child {
+    align-self: flex-start;
+  }
+
+  &:nth-child(2) {
+    align-self: center;
+  }
+
+  &:last-child {
+    margin-top: 116px;
+  }
+}
+
+.slide {
+  display: flex;
+  gap: 24px;
+}
+
+.slider-btn {
+  color: transparent;
+  background-color: #121213;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  font-size: 1px;
+}
+
+.slider-btn.active {
+  width: 16px;
+  background-color: $accent-color;
+  border-radius: 10px;
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 50px;
+}

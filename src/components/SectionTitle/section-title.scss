@@ -1,0 +1,28 @@
+.section-title {
+  font-family: 'Graphik', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-title {
+    font-size: 55px;
+  }
+}
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+  .section-title {
+    text-align: start;
+  }
+}
+
+/* 576px-767px */
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    font-size: 36px;
+  }
+}

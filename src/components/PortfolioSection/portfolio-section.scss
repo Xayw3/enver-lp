@@ -1,0 +1,50 @@
+.portfolio {
+  padding-top: 100px;
+  padding-bottom: 168px;
+}
+
+.figures-overlay {
+  position: relative;
+}
+
+.figures-circles {
+  position: absolute;
+  top: 5%;
+  right: 50px;
+}
+
+.figures-zigzag {
+  position: absolute;
+  bottom: -25px;
+  left: -100px;
+}
+
+/* 992-1200px */
+
+@media screen and (max-width: 1200px) {
+  .figures-zigzag {
+    position: absolute;
+    bottom: 23px;
+    left: 15px;
+  }
+}
+
+/* 768-991px */ 
+
+@media screen and (max-width: 991px) {
+  .figures-circles {
+    top: 14%;
+  }
+
+  .figures-zigzag {
+    bottom: -32px;
+  }
+}
+
+/* 320-450px */
+
+@media screen and (max-width: 450px) {
+  .figures-zigzag {
+    bottom: -54px;
+  }
+}

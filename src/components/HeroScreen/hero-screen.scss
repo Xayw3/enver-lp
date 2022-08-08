@@ -1,0 +1,24 @@
+.hero {
+  background-color: #19191B;
+}
+
+.gradient {
+  position: absolute;
+  z-index: 0;
+}
+
+/* 1201-1600px */
+
+@media screen and (max-width: 1600px) {
+  .gradient {
+    width: 50%;
+  }
+}
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+  .gradient {
+    width: 91%;
+  }
+}

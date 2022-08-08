@@ -1,0 +1,18 @@
+@import '../../styles/vars.scss';
+
+.menu__list {
+  display: flex;
+  gap: 40px;
+}
+
+.menu__link {
+  font-size: 18px;
+  color: #fff;
+  opacity: .7;
+  transition: all .5s ease;
+
+  &:hover {
+    color: $accent-color;
+    opacity: 1;
+  }
+}

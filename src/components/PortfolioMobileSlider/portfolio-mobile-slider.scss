@@ -1,0 +1,53 @@
+@import '../../styles/vars.scss';
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+  .slide {
+    justify-content: center;
+    gap: 0;
+    width: 100%;
+  }
+
+  .slide-img {
+    width: 100%;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  .slider-btns {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .arrow-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: $accent-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:disabled {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    & img {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}
+
+/* 320-450px */
+
+@media screen and (max-width: 450px) {
+  .slide-img {
+    margin-top: 50px!important;
+  }
+}

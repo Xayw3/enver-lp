@@ -1,0 +1,29 @@
+.footer__content {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  padding: 50px 0 100px;
+}
+
+/* 1201-1600px */ 
+
+@media screen and (max-width: 1600px) {
+  .footer__content {
+    justify-content: space-between;
+  }
+}
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+  .footer__content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer {
+    padding: 140px 0 50px;
+  }
+}
