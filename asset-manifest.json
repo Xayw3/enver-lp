@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/enver-lp/static/css/main.24bbbfe7.css",
+    "main.js": "/enver-lp/static/js/main.9decc4e6.js",
+    "static/js/787.dc822e54.chunk.js": "/enver-lp/static/js/787.dc822e54.chunk.js",
+    "static/media/video.png": "/enver-lp/static/media/video.84765a39154cad1438ef.png",
+    "index.html": "/enver-lp/index.html",
+    "main.24bbbfe7.css.map": "/enver-lp/static/css/main.24bbbfe7.css.map",
+    "main.9decc4e6.js.map": "/enver-lp/static/js/main.9decc4e6.js.map",
+    "787.dc822e54.chunk.js.map": "/enver-lp/static/js/787.dc822e54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24bbbfe7.css",
+    "static/js/main.9decc4e6.js"
+  ]
+}
